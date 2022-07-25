@@ -1,0 +1,49 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card, .card blockquote {
+  color: var(--color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: white;
+  font-size: 20px;
+}
+
+.card cite {
+  align-self: flex-end;
+  display: inline-block;
+
+}
+
+.card_container {
+  display: flex;
+  align-items: center;
+}
+
+.card_icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.card_icon svg {
+  font-size: 55px;
+}
+
+.card_btn {
+  display: inline-block;
+  align-self: flex-end;
+  font-size: 40px;
+  background: none;
+  border: none;
+  color: var(--color);
+
+}
