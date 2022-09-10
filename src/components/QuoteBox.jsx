@@ -12,7 +12,7 @@ const QuoteBox = ({phrase,handlerChange,randomColor}) => {
                 </div>
             <p className='card-p'> {phrase.quote}</p>
             </div>
-        <cite>{phrase.author}</cite>
+        <cite>{phrase.author}</cite><br />
         <button className='card_btn' onClick={handlerChange}><FaChevronCircleRight /></button>
         </blockquote>
         {/* <ul className='card_first'>

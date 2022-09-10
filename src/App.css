@@ -7,6 +7,10 @@
   justify-content: center;
 }
 
+.card {
+  border-radius: 15px;
+}
+
 .card, .card blockquote {
   color: var(--color);
   display: flex;
